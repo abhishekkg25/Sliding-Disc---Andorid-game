@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sliding_disc.masterabhig.slidingdisc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".GameMenu" />
+        <activity android:name=".Fill" />
+        <activity android:name=".Game" />
+        <activity android:name=".Introduction_sliding" />
+        <activity android:name=".Fill_single" />
+        <activity android:name=".Game_with_computer" />
+        <activity android:name=".Main_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameMenu_brain" />
+        <activity android:name=".BrainGame" />
+        <activity android:name=".brain_intro" />
+        <activity android:name=".GameMenu_flying"></activity>
+    </application>
+
+</manifest>

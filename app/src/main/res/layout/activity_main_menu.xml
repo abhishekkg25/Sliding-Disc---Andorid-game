@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sliding_disc.masterabhig.slidingdisc.Main_menu">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:text="Slding Disc"
+        android:background="@drawable/shadow"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#091BF7"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:onClick="sliding_disc"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:text="Brain Checker"
+        android:background="@drawable/shadow"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#F75C41"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:onClick="brain_checker"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_below="@+id/button8"
+        android:text="Flying bro"
+        android:background="@drawable/shadow"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#00ff00"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:onClick="flying_bro"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Introduction"
+        android:background="@drawable/coloredbuttons"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#091BF7"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:onClick="introduction"/>
+</RelativeLayout>
